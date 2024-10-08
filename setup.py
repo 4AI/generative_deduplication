@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="gen-dedup",
-    version='0.0.1',
+    version='0.0.2',
     author="Sean Lee",
     author_email="xmlee97@gmail.com",
     description="Generative deduplication",
