@@ -60,6 +60,8 @@ gd.deduplicate('./hate-dedup', max_label_words=max_label_words)
 
 The trained model, duplicate data, and non-duplicate data will be saved in the `./hate-dedup` directory.
 
+Full example can be found in [examples/tweet_eval-hate-dedup.ipynb](./examples/tweet_eval-hate-dedup.ipynb).
+
 
 ## Citation
 
