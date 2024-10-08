@@ -12,8 +12,11 @@ Revisiting data deuplication, we propose a fresh paradigm for semantic deduplica
 - Generative language models possess powerful language understanding capabilities. We use it for semantic deduplication.
 - There are two crucial stages in generative deduplication:
   - **Memory stage**: The model learns the relationship between context and corresponding keywords. Semantically duplicate contexts establish stronger connections than non-duplicate ones in one-epoch training.
+
   $$g(y|context)$$
+  
   - **Inference stage**: During inference, we use the trained generative model to generate keywords from the given context. If the generated keywords match the target keywords, we classify the data as duplicate.
+
   $$g(context) == y?$$
 
 
