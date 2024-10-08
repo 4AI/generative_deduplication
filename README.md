@@ -13,11 +13,15 @@ Revisiting data deuplication, we propose a fresh paradigm for semantic deduplica
 - There are two crucial stages in generative deduplication:
   - **Memory stage**: The model learns the relationship between context and corresponding keywords. Semantically duplicate contexts establish stronger connections than non-duplicate ones in one-epoch training.
 
+<p align="center">
   $$g(y|context)$$
-  
+</p>
+
   - **Inference stage**: During inference, we use the trained generative model to generate keywords from the given context. If the generated keywords match the target keywords, we classify the data as duplicate.
 
+<p align="center">
   $$g(context) == y?$$
+</p>
 
 
 ## Installation
