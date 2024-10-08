@@ -26,7 +26,6 @@ setup(
     ],
     python_requires=">=3.8",
     install_requires=[
-        "torch",
         "tqdm",
         "datasets",
         "transformers",
